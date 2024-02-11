@@ -1,8 +1,3 @@
-//  server
-//   |_ config - connection to databases
-//   |_ models * - queries to database
-//   |_ controllers - function implementation code
-//   |_ routes - route implementation codes.
 const cors = require("cors");
 const express = require("express");
 const { fitness_router } = require("./routes/fitness.route.js");
